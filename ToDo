@@ -1,0 +1,9 @@
+X Create instance of the Checkout class
+X add an item price
+X add an item
+X calculate current total
+X add multiple items and get correct total
+X add discount rules: prams: item, # of items required to add discount
+    and actual discount
+7. apply discounts
+8. throw exception for item without a price

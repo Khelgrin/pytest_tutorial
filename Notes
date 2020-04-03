@@ -1,0 +1,41 @@
+Test doubles:
+
+Dummy - Objects that can be passed around as necessary, but do not have any type of test implementation and should
+never be used
+
+Fake - These objects generally have a simplified functional implementation of a particular interface that is adequate
+for testing, bot not for production.
+
+Stub - These objects provide implementations with canned answers that are suitable for the test.
+
+Spies - These objects provide implementations that record the values that were passed in so they can be used by the test
+
+Mock - These objects are pre-programmed to expect specific calls and parameters and can throw exceptions when
+necessary
+
+TDD best practices:
+
+Always do the next simplest test case
+    gradually increase complexity of code
+    otherwise you write too much code at once
+
+Descriptive test names
+    clear and understable
+    unit tests document your code
+    test suite should name class or functionality
+
+Keep UT fast
+    provide fast feedback
+    if takes long time you loose this
+    keep console output minimal
+    mock any slow collaborator
+
+coverage analysis tools
+    goal 100% coverage
+
+run tests in random order
+    pytest-random-order
+    pytest-repeat
+
+static code analysis tool
+    pylint

@@ -1,0 +1,4 @@
+/Ex_Files_Unit_Testing_Dev_Python/
+.idea/workspace.xml
+*/*/__pycache__
+.gitignore

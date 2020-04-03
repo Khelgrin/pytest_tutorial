@@ -1,0 +1,9 @@
+- Can i call FizzBuzz
+- Get 1 when i pass in 1
+- Get 2 when i pass in 2
+- Get Fizz when i pass in 3
+- Get Buzz when i pass in 5
+- Get Fizz when i pass in 6 (multiple of 3)
+- Get Buzz when i pass in 10 (multiple of 5)
+- Get FizzBuzz when i pass in 15 (multiple of 3 and 5)
+
